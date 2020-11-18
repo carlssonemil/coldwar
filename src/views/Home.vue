@@ -41,8 +41,17 @@ h2 {
     color: $text-color;
     padding: 12px 24px;
 
+    @media (max-width: $mobile) {
+      display: flex;
+    }
+
     + button {
       margin-left: 20px;
+
+      @media (max-width: $mobile) {
+        margin-top: 20px;
+        margin-left: 0;
+      }
     }
 
     &:hover {
