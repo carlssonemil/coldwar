@@ -55,6 +55,7 @@ h2 {
     align-items: center;
     display: inline-flex;
     color: $text-color;
+    justify-content: center;
     padding: 12px 24px;
 
     @media (max-width: $mobile) {
