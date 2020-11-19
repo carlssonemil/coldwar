@@ -136,7 +136,7 @@ export default new Vuex.Store({
 
       Vue.notify({
         type: 'success',
-        title: `${ type } progress successfully reset!`
+        title: `${ type === 'ultra' ? 'DM Ultra' : 'Dark Aether' } progress successfully reset!`
       });
     },
 
