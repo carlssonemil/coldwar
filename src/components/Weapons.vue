@@ -119,8 +119,8 @@
           user-select: none;
 
           @media (max-width: $tablet) {
-            font-size: 24px;
-            padding: 15%;
+            font-size: 20px;
+            padding: #{ $padding * 2 } $padding;
           }
 
           &.completed {
@@ -134,10 +134,6 @@
             border-left-width: $border-size;
             border-left-style: solid;
             padding-left: #{ ($padding / 2) - $border-size };
-
-            @media (max-width: $tablet) {
-              padding: 15% 15% 15% calc(15% - 5px) // to maintain text center alignment with the extra thick border
-            }
 
             &.ultra {
               border-color: $purple;
