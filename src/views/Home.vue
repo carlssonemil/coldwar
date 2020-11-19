@@ -1,14 +1,30 @@
 <template>
-  <div class="container">
-    <h1>ColdWar<span>.now.sh</span></h1>
-    <h2>Simple, lightweight & intuitive camouflage tracker for Call of Duty: Black Ops Cold War</h2>
+  <transition name="fade">
+    <div class="container" v-if="show">
+      <h1>ColdWar<span>.now.sh</span></h1>
+      <h2>Simple, lightweight & intuitive camouflage tracker for Call of Duty: Black Ops Cold War</h2>
 
-    <div class="buttons">
-      <button @click="$router.push('/ultra')" class="ultra">Track DM Ultra<eva-icon name="arrow-forward" fill="white"></eva-icon></button>
-      <button @click="$router.push('/aether')" class="aether">Track Dark Aether<eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+      <div class="buttons">
+        <button @click="$router.push('/ultra')" class="ultra">Track DM Ultra<eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+        <button @click="$router.push('/aether')" class="aether">Track Dark Aether<eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+      </div>
     </div>
-  </div>
+  </transition>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      show: false
+    }
+  },
+
+  mounted () {
+    this.show = true;
+  },
+}
+</script>
 
 <style lang="scss" scoped>
 .container {
