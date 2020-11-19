@@ -37,6 +37,8 @@
 </template>
 
 <script>
+  import { convertToKebabCase } from '@/utils/utils'
+
   export default {
     props: ['weapons', 'mode'],
 
@@ -58,10 +60,7 @@
         return `${ camo } - ${ requirement[weapon] ? requirement[weapon] : requirement.default }`;
       },
 
-      // TODO: Move to utils file.
-      convertToKebabCase(string) {
-        return string.replace(/\s+/g, '-').toLowerCase();
-      }
+      convertToKebabCase
     }
   }
 </script>

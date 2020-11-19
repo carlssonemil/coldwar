@@ -13,6 +13,8 @@
   import Progress from '@/components/Progress.vue'
   import Weapons from '@/components/Weapons.vue'
 
+  import { groupBy } from '@/utils/utils'
+
   export default {
     components: {
       Filters,
@@ -41,20 +43,7 @@
     },
 
     methods: {
-      // TODO: Move to utils file
-      groupBy(list, keyGetter) {
-        const map = {};
-        list.forEach(item => {
-          const key = keyGetter(item);
-
-          if (!map[key]) {
-            map[key] = [item];
-          } else {
-            map[key].push(item);
-          }
-        });
-        return map;
-      }
+      groupBy
     },
 
     mounted () {

@@ -23,6 +23,7 @@
 
 <script>
   import Confetti from '@/confetti'
+  import { roundToTwoDecimals } from '@/utils/utils'
 
   export default {
     props: ['type'],
@@ -81,10 +82,7 @@
         }, DURATION);
       },
 
-      // TODO: Move to utils file
-      roundToTwoDecimals(num) {
-        return Math.round((num + Number.EPSILON) * 100) / 100;
-      }
+      roundToTwoDecimals,
     },
 
     mounted() {
