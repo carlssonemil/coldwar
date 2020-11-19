@@ -17,7 +17,7 @@
       <div>
         <router-link to="/ultra">DM Ultra</router-link>
         <router-link to="/aether">Dark Aether</router-link>
-        <router-link to="/settings" class="icon" content="Settings" v-tippy="{ placement: 'bottom' }">
+        <router-link to="/settings" class="icon settings" content="Settings" v-tippy="{ placement: 'bottom' }">
           <eva-icon name="settings-2-outline" fill="white"></eva-icon>
         </router-link>
       </div>

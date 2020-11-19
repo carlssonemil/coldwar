@@ -70,6 +70,10 @@ nav {
         opacity: 1;
         text-decoration: underline;
       }
+
+      &.settings i {
+        transform: rotate(45deg);
+      }
     }
 
     &.router-link-exact-active {
@@ -96,6 +100,10 @@ nav {
         transform: translate(-50%, calc(100% + 4px));
         width: 100%;
       }
+    }
+
+    i {
+      transition: $transition;
     }
   }
 
