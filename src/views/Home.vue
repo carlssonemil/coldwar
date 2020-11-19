@@ -5,8 +5,8 @@
       <h2>Simple, lightweight & intuitive camouflage tracker for Call of Duty: Black Ops Cold War</h2>
 
       <div class="buttons">
-        <button @click="$router.push('/ultra')" class="ultra">Track DM Ultra<eva-icon name="arrow-forward" fill="white"></eva-icon></button>
-        <button @click="$router.push('/aether')" class="aether">Track Dark Aether<eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+        <button @click="$router.push('/ultra')" class="ultra"><span>Track DM Ultra</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+        <button @click="$router.push('/aether')" class="aether"><span>Track Dark Aether</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
       </div>
     </div>
   </transition>
@@ -85,6 +85,10 @@ h2 {
 
     &.aether {
       background: $red;
+    }
+
+    span {
+      white-space: nowrap;
     }
 
     i {
