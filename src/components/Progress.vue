@@ -37,8 +37,7 @@
 
     computed: {
       progress() {
-        let { completed, total } = this.calculateProgress([...this.$store.state.weapons]);
-        return this.roundToTwoDecimals((completed / total) * 100);
+        return this.roundToTwoDecimals(this.calculateProgress([...this.$store.state.weapons]) * 100);
       }
     },
 
@@ -52,12 +51,21 @@
 
     methods: {
       calculateProgress(weapons) {
-        weapons = weapons.filter(weapon => weapon.required);
+        const categories = ['Assault Rifle', 'Launcher', 'Light Machine Gun', 'Melee', 'Pistol', 'Shotgun', 'Sniper Rifle', 'Special', 'Sub Machine Gun', 'Tactical Rifle'];
+        const progress = {};
 
-        return {
-          total: weapons.length * 7, // 7 for the number of camouflages
-          completed: weapons.reduce((a, weapon) => a + Object.values(weapon.progress[this.type]).reduce((b, progress) => b + progress, 0), 0)
-        }
+        categories.forEach(category => {
+          const categoryWeapons = weapons.filter(weapon => weapon.category === category);
+          const required = categoryWeapons.filter(weapon => !weapon.dlc).length * 7; // 7 for the number of camouflages
+          const completed = categoryWeapons.reduce((a, weapon) => a + Object.values(weapon.progress[this.type]).reduce((b, progress) => b + progress, 0), 0);
+          progress[category] = completed / required > 1 ? 1 : completed / required;
+        });
+        
+        return this.average(Object.values(progress))
+      },
+
+      average(arr) {
+        return arr.reduce((p, c) => p + c, 0) / arr.length;
       },
 
       handleCompleted() {
