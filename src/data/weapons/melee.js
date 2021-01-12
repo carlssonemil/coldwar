@@ -1,12 +1,12 @@
 import { ultraProgress, aetherProgress } from '../defaults'
 
 const weapons = ['Knife']
-const required = ['Knife']
+const original = ['Knife']
 
 export default weapons.map(weapon => ({
   category: 'Melee',
   name: weapon,
-  required: required.includes(weapon),
+  dlc: !original.includes(weapon),
   progress: {
     aether: { ...aetherProgress },
     ultra: { ...ultraProgress }
