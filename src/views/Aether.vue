@@ -32,9 +32,8 @@
       weapons() {
         let weapons = this.$store.state.weapons;
 
-        let { hideNonRequired, hideCompleted, category } = this.$store.state.filters.aether;
+        let { hideCompleted, category } = this.$store.state.filters.aether;
 
-        if (hideNonRequired) weapons = weapons.filter(w => w.required);
         if (hideCompleted) weapons = weapons.filter(w => !Object.values(w.progress.aether).every(Boolean));
         if (category && category !== 'null') weapons = weapons.filter(w => w.category === category);
 
