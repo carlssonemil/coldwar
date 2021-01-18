@@ -1,23 +1,24 @@
 import assaultRifles from './weapons/assaultRifles'
-import launchers from './weapons/launchers'
-import lightMachineGuns from './weapons/lightMachineGuns'
-import melee from './weapons/melee'
-import pistols from './weapons/pistols'
-import shotguns from './weapons/shotguns'
-import sniperRifles from './weapons/sniperRifles'
-import special from './weapons/special'
 import subMachineGuns from './weapons/subMachineGuns'
+import shotguns from './weapons/shotguns'
+import lightMachineGuns from './weapons/lightMachineGuns'
 import tacticalRifles from './weapons/tacticalRifles'
+import sniperRifles from './weapons/sniperRifles'
+import melee from './weapons/melee'
+import special from './weapons/special'
+import pistols from './weapons/pistols'
+import launchers from './weapons/launchers'
 
 export default [
   ...assaultRifles,
-  ...launchers,
-  ...lightMachineGuns,
-  ...melee,
-  ...pistols,
-  ...shotguns,
-  ...sniperRifles,
-  ...special,
   ...subMachineGuns,
-  ...tacticalRifles
+  ...shotguns,
+  ...lightMachineGuns,
+  ...tacticalRifles,
+  ...sniperRifles,
+  ...melee,
+  ...special,
+  ...pistols,
+  ...launchers
 ]
+
