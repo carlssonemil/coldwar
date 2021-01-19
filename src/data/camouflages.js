@@ -11,7 +11,7 @@ export default [
       'Shotgun': { default: '200 Kills' },
       'Sniper Rifle': { default: '200 Kills' },
       'Special': { default: '50 Kills' },
-      'Sub Machine Gun': { default: '300 Kills' },
+      'Submachine Gun': { default: '300 Kills' },
       'Tactical Rifle': { default: '300 Kills' }
     }
   },
@@ -26,7 +26,7 @@ export default [
       'Shotgun': { default: '50 Headshots' },
       'Sniper Rifle': { default: '50 Headshots' },
       'Special': { default: 'Destroy 50 killstreaks or equipment' },
-      'Sub Machine Gun': { default: '75 Headshots' },
+      'Submachine Gun': { default: '75 Headshots' },
       'Tactical Rifle': { default: '100 Headshots' }
     }
   },
@@ -41,7 +41,7 @@ export default [
       'Shotgun': { default: '5 kills without dying 20 times' },
       'Sniper Rifle': { default: '5 kills without dying 20 times' },
       'Special': { default: '3 kills without dying 20 times' },
-      'Sub Machine Gun': { default: '5 kills without dying 20 times' },
+      'Submachine Gun': { default: '5 kills without dying 20 times' },
       'Tactical Rifle': { default: '5 kills without dying 20 times' }
     }
   },
@@ -56,7 +56,7 @@ export default [
       'Shotgun': { default: '50 Longshots' },
       'Sniper Rifle': { default: '50 Longshots' },
       'Special': { default: 'Destroy 50 ground-based killstreaks' },
-      'Sub Machine Gun': { default: '50 Longshots' },
+      'Submachine Gun': { default: '50 Longshots' },
       'Tactical Rifle': { default: '50 Longshots' }
     }
   },
@@ -71,7 +71,7 @@ export default [
       'Shotgun': { default: '75 Stunned/Detected' },
       'Sniper Rifle': { default: '50 Holding Breath' },
       'Special': { default: 'Destroy 50 air-based killstreaks' },
-      'Sub Machine Gun': { default: '75 Stunned/Detected' },
+      'Submachine Gun': { default: '75 Stunned/Detected' },
       'Tactical Rifle': { default: '75 Stunned/Detected' }
     }
   },
@@ -86,7 +86,7 @@ export default [
       'Shotgun': { default: '75 Point-Blank' },
       'Sniper Rifle': { default: '50 One Shot Kills' },
       'Special': { default: '10 3-streaks' },
-      'Sub Machine Gun': { default: '75 Point-Blank' },
+      'Submachine Gun': { default: '75 Point-Blank' },
       'Tactical Rifle': { default: '50 Anti-Cover' }
     }
   },
@@ -101,7 +101,7 @@ export default [
       'Shotgun': { default: '25 Double Kills' },
       'Sniper Rifle': { default: '25 Double Kills' },
       'Special': { default: '25 Double Kills' },
-      'Sub Machine Gun': { default: '25 Double Kills' },
+      'Submachine Gun': { default: '25 Double Kills' },
       'Tactical Rifle': { default: '25 Double Kills' }
     }
   },
@@ -118,7 +118,7 @@ export default [
       'Shotgun': { default: '2500 Kills' },
       'Sniper Rifle': { default: '2500 Kills' },
       'Special': { default: '1500 Kills' },
-      'Sub Machine Gun': { default: '2500 Kills' },
+      'Submachine Gun': { default: '2500 Kills' },
       'Tactical Rifle': { default: '2500 Kills' }
     }
   },
@@ -133,7 +133,7 @@ export default [
       'Shotgun': { default: '2500 critical hit kills' },
       'Sniper Rifle': { default: '2500 critical hit kills' },
       'Special': { default: 'Kill 2 or more enemies rapidly 50 times' },
-      'Sub Machine Gun': { default: '2500 critical hit kills' },
+      'Submachine Gun': { default: '2500 critical hit kills' },
       'Tactical Rifle': { default: '2500 critical hit kills' }
     }
   },
@@ -148,7 +148,7 @@ export default [
       'Shotgun': { default: '2500 kills while the weapon is pack-a-punched' },
       'Sniper Rifle': { default: '2500 kills while the weapon is pack-a-punched' },
       'Special': { default: 'Kill 5 or more enemies with a single rocket' },
-      'Sub Machine Gun': { default: '2500 kills while the weapon is pack-a-punched' },
+      'Submachine Gun': { default: '2500 kills while the weapon is pack-a-punched' },
       'Tactical Rifle': { default: '2500 kills while the weapon is pack-a-punched' }
     }
   },
@@ -163,7 +163,7 @@ export default [
       'Shotgun': { default: 'Get 15 Elite eliminations' },
       'Sniper Rifle': { default: 'Get 15 Elite eliminations' },
       'Special': { default: '2500 kills while the weapon is pack-a-punched' },
-      'Sub Machine Gun': { default: 'Get 15 Elite eliminations' },
+      'Submachine Gun': { default: 'Get 15 Elite eliminations' },
       'Tactical Rifle': { default: 'Get 15 Elite eliminations' }
     }
   },
@@ -178,7 +178,7 @@ export default [
       'Shotgun': { default: 'Get 10 kills rapidly 10 times' },
       'Sniper Rifle': { default: 'Get 10 kills rapidly 10 times' },
       'Special': { default: 'Get 10 elite eliminations' },
-      'Sub Machine Gun': { default: 'Get 10 kills rapidly 10 times' },
+      'Submachine Gun': { default: 'Get 10 kills rapidly 10 times' },
       'Tactical Rifle': { default: 'Get 10 kills rapidly 10 times' }
     }
   },
@@ -193,7 +193,7 @@ export default [
       'Shotgun': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
       'Sniper Rifle': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
       'Special': { default: 'Get 10 kills rapidly 10 times' },
-      'Sub Machine Gun': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
+      'Submachine Gun': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
       'Tactical Rifle': { default: 'Get 3 or more critical hit kills rapidly 25 times' }
     }
   },
@@ -208,7 +208,7 @@ export default [
       'Shotgun': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
       'Sniper Rifle': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
       'Special': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
-      'Sub Machine Gun': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
+      'Submachine Gun': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
       'Tactical Rifle': { default: 'Get 20 or more consecutive kills without getting hit 10 times' }
     }
   }
