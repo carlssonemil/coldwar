@@ -1,10 +1,10 @@
 import { ultraProgress, aetherProgress } from '../defaults'
 
-const weapons = ['AK-74u', 'Bullfrog', 'KSP 45', 'Milano 821', 'MP5', 'MAC-10']
-const original = ['AK-74u', 'Bullfrog', 'KSP 45', 'Milano 821', 'MP5']
+const weapons = ['MP5', 'Milano 821', 'AK-74u', 'KSP 45', 'Bullfrog', 'MAC-10', 'LC10']
+const original = ['MP5', 'Milano 821', 'AK-74u', 'KSP 45', 'Bullfrog']
 
 export default weapons.map(weapon => ({
-  category: 'Submachine Gun',
+  category: 'Submachine Guns',
   name: weapon,
   dlc: !original.includes(weapon),
   progress: {
