@@ -4,7 +4,7 @@ const weapons = ['Cigma 2', 'RPG-7']
 const original = ['Cigma 2', 'RPG-7']
 
 export default weapons.map(weapon => ({
-  category: 'Launcher',
+  category: 'Launchers',
   name: weapon,
   dlc: !original.includes(weapon),
   progress: {
