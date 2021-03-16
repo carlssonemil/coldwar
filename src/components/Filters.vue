@@ -16,10 +16,10 @@
       <label for="hideCompleted">Hide completed</label>
     </div>
 
-    <!--<div class="checkbox" v-if="'hideNonRequired' in filters">
+    <div class="checkbox" v-if="'hideNonRequired' in filters">
       <input id="hideNonRequired" type="checkbox" v-model="filters.hideNonRequired" @change="filterChange()">
       <label for="hideNonRequired">Hide non required</label>
-    </div>-->
+    </div>
 
     <div class="symbols" v-if="showSymbols">
       <eva-icon class="info" 
