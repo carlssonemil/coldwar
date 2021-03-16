@@ -32,9 +32,24 @@
       weapons() {
         let weapons = this.$store.state.weapons;
 
-        let { hideCompleted, category } = this.$store.state.filters.ultra;
+        let { hideCompleted, hideNonRequired, category } = this.$store.state.filters.ultra;
 
         if (hideCompleted) weapons = weapons.filter(w => !Object.values(w.progress.ultra).every(Boolean));
+
+        if (hideNonRequired) {
+          weapons = weapons.filter(weapon => {
+            const categoryWeapons = weapons.filter(w => w.category === weapon.category);
+            const required = categoryWeapons.filter(w => !w.dlc).length * 7;
+            const completed = categoryWeapons.reduce((a, w) => a + Object.values(w.progress.ultra).reduce((b, progress) => b + progress, 0), 0);
+
+            if (completed === required && !Object.values(weapon.progress.ultra).every(Boolean)) {
+              return false;
+            } else {
+              return true;
+            }
+          });
+        }
+
         if (category && category !== 'null') weapons = weapons.filter(w => w.category === category);
 
         return this.groupBy(weapons, weapon => weapon.category);
