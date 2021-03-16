@@ -124,6 +124,7 @@ export default new Vuex.Store({
     resetAll(context) {
       context.commit('RESET_PROGRESS', 'aether');
       context.commit('RESET_PROGRESS', 'ultra');
+      context.dispatch('storeData');
 
       Vue.notify({
         type: 'success',
@@ -133,6 +134,7 @@ export default new Vuex.Store({
 
     resetProgress(context, type) {
       context.commit('RESET_PROGRESS', type);
+      context.dispatch('storeData');
 
       Vue.notify({
         type: 'success',
