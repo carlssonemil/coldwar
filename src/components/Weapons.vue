@@ -57,7 +57,7 @@
 
       camoTooltip(category, camo, weapon) {
         let requirement = this.$store.state.camouflages.find(c => c.name === camo).requirements[category];
-        return `${ camo } - ${ requirement[weapon] ? requirement[weapon] : requirement.default }`;
+        return `${ camo } - ${ requirement[weapon.name] ? requirement[weapon.name] : requirement.default }`;
       },
 
       convertToKebabCase

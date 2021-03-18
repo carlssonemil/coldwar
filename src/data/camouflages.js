@@ -10,7 +10,10 @@ export default [
       'Pistols': { default: '150 Kills' },
       'Shotguns': { default: '200 Kills' },
       'Sniper Rifles': { default: '200 Kills' },
-      'Special': { default: '50 Kills' },
+      'Special': { 
+        default: '50 Kills',
+        'R1 Shadowhunter': '30 Kills'
+      },
       'Submachine Guns': { default: '300 Kills' },
       'Tactical Rifles': { default: '300 Kills' }
     }
@@ -25,7 +28,10 @@ export default [
       'Pistols': { default: '50 Headshots' },
       'Shotguns': { default: '50 Headshots' },
       'Sniper Rifles': { default: '50 Headshots' },
-      'Special': { default: 'Destroy 50 killstreaks or equipment' },
+      'Special': { 
+        default: 'Destroy 50 killstreaks or equipment',
+        'R1 Shadowhunter': '50 Longshots'
+       },
       'Submachine Guns': { default: '75 Headshots' },
       'Tactical Rifles': { default: '100 Headshots' }
     }
@@ -70,7 +76,10 @@ export default [
       'Pistols': { default: '25 Stunned/Detected' },
       'Shotguns': { default: '75 Stunned/Detected' },
       'Sniper Rifles': { default: '50 Holding Breath' },
-      'Special': { default: 'Destroy 50 air-based killstreaks' },
+      'Special': { 
+        default: 'Destroy 50 air-based killstreaks',
+        'R1 Shadowhunter': '50 Anti-Cover'
+      },
       'Submachine Guns': { default: '75 Stunned/Detected' },
       'Tactical Rifles': { default: '75 Stunned/Detected' }
     }
