@@ -61,7 +61,10 @@ export default [
       'Pistols': { default: '25 Longshots' },
       'Shotguns': { default: '50 Longshots' },
       'Sniper Rifles': { default: '50 Longshots' },
-      'Special': { default: 'Destroy 50 ground-based killstreaks' },
+      'Special': { 
+        default: 'Destroy 50 equipment, scorestreaks or vehicles',
+        'R1 Shadowhunter': '50 Headshots'
+       },
       'Submachine Guns': { default: '50 Longshots' },
       'Tactical Rifles': { default: '50 Longshots' }
     }
@@ -78,7 +81,7 @@ export default [
       'Sniper Rifles': { default: '50 Holding Breath' },
       'Special': { 
         default: 'Destroy 50 air-based killstreaks',
-        'R1 Shadowhunter': '50 Anti-Cover'
+        'R1 Shadowhunter': '50 Stunned/Detected'
       },
       'Submachine Guns': { default: '75 Stunned/Detected' },
       'Tactical Rifles': { default: '75 Stunned/Detected' }
@@ -94,7 +97,10 @@ export default [
       'Pistols': { default: '25 Anti-Cover' },
       'Shotguns': { default: '75 Point-Blank' },
       'Sniper Rifles': { default: '50 One Shot Kills' },
-      'Special': { default: '10 3-streaks' },
+      'Special': { 
+        default: '10 3-streaks',
+        'R1 Shadowhunter': '5 One Shot kills in a single game 10 times'
+      },
       'Submachine Guns': { default: '75 Point-Blank' },
       'Tactical Rifles': { default: '50 Anti-Cover' }
     }
@@ -141,7 +147,10 @@ export default [
       'Pistols': { default: '2500 critical hit kills' },
       'Shotguns': { default: '2500 critical hit kills' },
       'Sniper Rifles': { default: '2500 critical hit kills' },
-      'Special': { default: 'Kill 2 or more enemies rapidly 50 times' },
+      'Special': { 
+        default: 'Kill 2 or more enemies rapidly 50 times',
+        'R1 Shadowhunter': 'Get 3 or more critical hit kills rapidly 50 times'
+      },
       'Submachine Guns': { default: '2500 critical hit kills' },
       'Tactical Rifles': { default: '2500 critical hit kills' }
     }
@@ -156,7 +165,10 @@ export default [
       'Pistols': { default: '2500 kills while the weapon is pack-a-punched' },
       'Shotguns': { default: '2500 kills while the weapon is pack-a-punched' },
       'Sniper Rifles': { default: '2500 kills while the weapon is pack-a-punched' },
-      'Special': { default: 'Kill 5 or more enemies with a single rocket' },
+      'Special': { 
+        default: 'Kill 5 or more enemies with a single rocket',
+        'R1 Shadowhunter': 'Kill 3 or more enemies with a single shot 50 times'
+      },
       'Submachine Guns': { default: '2500 kills while the weapon is pack-a-punched' },
       'Tactical Rifles': { default: '2500 kills while the weapon is pack-a-punched' }
     }
@@ -171,7 +183,10 @@ export default [
       'Pistols': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
       'Shotguns': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
       'Sniper Rifles': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
-      'Special': { default: '2500 kills while the weapon is pack-a-punched' },
+      'Special': { 
+        default: '2500 kills while the weapon is pack-a-punched',
+        'R1 Shadowhunter': '1500 kills while the weapon is pack-a-punched'
+      },
       'Submachine Guns': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
       'Tactical Rifles': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' }
     }
