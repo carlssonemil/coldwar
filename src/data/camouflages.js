@@ -62,8 +62,8 @@ export default [
       'Shotguns': { default: '50 Longshots' },
       'Sniper Rifles': { default: '50 Longshots' },
       'Special': { 
-        default: 'Destroy 50 killstreaks or equipment',
-        'R1 Shadowhunter': '50 Longshots'
+        default: 'Destroy 50 equipment, scorestreaks or vehicles',
+        'R1 Shadowhunter': '50 Headshots'
        },
       'Submachine Guns': { default: '50 Longshots' },
       'Tactical Rifles': { default: '50 Longshots' }
