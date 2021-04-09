@@ -2,7 +2,7 @@
 
 ## Simple, lightweight & intuitive camouflage tracker
 
-Cold War is a Call of Duty: Black Ops Cold War (2020) camouflage tracker to easily manage your progress towards the *DM Ultra* and/or *Dark Aether* camouflages. This tool is a sequel to the tracker tool made for Modern Warfare (2019), which can be accessed [here](https://damascus.now.sh/).
+Cold War is a Call of Duty: Black Ops Cold War (2020) camouflage tracker to easily manage your progress towards the *DM Ultra* and/or *Dark Aether* camouflages. This tool is a sequel to the tracker tool made for Modern Warfare (2019), which can be accessed [here](https://damascus.vercel.app/).
 
 Built with [Vue](https://vuejs.org/), hosted on [Vercel](https://vercel.com/) and analytics by [Plausible](https://plausible.io/).
 

@@ -16,7 +16,7 @@
       <p>Built with <a href="https://vuejs.org/">Vue</a>, hosted on <a href="https://vercel.com/">Vercel</a> and analytics by <a href="https://plausible.io/">Plausible</a>. Icon used in logotype and favicon is created by <a href="https://thenounproject.com/search/?q=army+star&i=1602410">Wira Wianda</a> from <a href="https://thenounproject.com/">Noun Project</a>. The code to this site is available on <a href="https://github.com/carlssonemil/coldwar">GitHub</a>.</p>
     
       <h4>Damascus</h4>
-      <p>Looking for a completionist tracker for <i>Call of Duty: Modern Warfare (2019)</i>? I made one conveniently named <a href="https://damascus.now.sh">Damascus</a>.</p>
+      <p>Looking for a completionist tracker for <i>Call of Duty: Modern Warfare (2019)</i>? I made one conveniently named <a href="https://damascus.vercel.app">Damascus</a>.</p>
 
       <h4>Support me</h4>
       <p>You can support me by <a href="https://www.buymeacoffee.com/emilcarlsson">buying me a beer</a> 🍺, it'd be greatly appreciated!</p>

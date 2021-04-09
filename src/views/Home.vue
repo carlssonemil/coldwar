@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
     <div class="container" v-if="show">
-      <h1>ColdWar<span>.now.sh</span></h1>
+      <h1>ColdWar<span>.vercel.app</span></h1>
       <h2>Simple, lightweight & intuitive camouflage tracker for Call of Duty: Black Ops Cold War</h2>
 
       <div class="buttons">
