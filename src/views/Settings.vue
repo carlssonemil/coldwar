@@ -72,7 +72,7 @@ export default {
         },
         {
           name: 'Reset all progress',
-          description: 'Reset your current camouflage, reticle & Master Challenges progress.',
+          description: 'Reset all your current camouflage progress (DM Ultra & Dark Aether).',
           warning: 'This action is irreversible.',
           action: 'resetAll',
           button: 'Reset progress'
