@@ -12,7 +12,8 @@ export default [
       'Sniper Rifles': { default: '200 Kills' },
       'Special': { 
         default: '50 Kills',
-        'R1 Shadowhunter': '30 Kills'
+        'R1 Shadowhunter': '30 Kills',
+        'Ballistic Knife': '100 Kills'
       },
       'Submachine Guns': { default: '300 Kills' },
       'Tactical Rifles': { default: '300 Kills' }
@@ -30,7 +31,8 @@ export default [
       'Sniper Rifles': { default: '50 Headshots' },
       'Special': { 
         default: 'Destroy 50 killstreaks or equipment',
-        'R1 Shadowhunter': '50 Longshots'
+        'R1 Shadowhunter': '50 Longshots',
+        'Ballistic Knife': 'Get both a melee kill and projectile kill in the same life 25 times'
        },
       'Submachine Guns': { default: '75 Headshots' },
       'Tactical Rifles': { default: '100 Headshots' }
@@ -46,7 +48,10 @@ export default [
       'Pistols': { default: '5 kills without dying 20 times' },
       'Shotguns': { default: '5 kills without dying 20 times' },
       'Sniper Rifles': { default: '5 kills without dying 20 times' },
-      'Special': { default: '2 kills without dying 20 times' },
+      'Special': { 
+        default: '2 kills without dying 20 times',
+        'Ballistic Knife': '3 kills without dying 20 times'
+       },
       'Submachine Guns': { default: '5 kills without dying 20 times' },
       'Tactical Rifles': { default: '5 kills without dying 20 times' }
     }
@@ -63,7 +68,7 @@ export default [
       'Sniper Rifles': { default: '50 Longshots' },
       'Special': { 
         default: 'Destroy 50 equipment, scorestreaks or vehicles',
-        'R1 Shadowhunter': '50 Headshots'
+        'Ballistic Knife': '25 Backstabber medals'
        },
       'Submachine Guns': { default: '50 Longshots' },
       'Tactical Rifles': { default: '50 Longshots' }
@@ -81,7 +86,8 @@ export default [
       'Sniper Rifles': { default: '50 Holding Breath' },
       'Special': { 
         default: 'Destroy 50 air-based killstreaks',
-        'R1 Shadowhunter': '50 Stunned/Detected'
+        'R1 Shadowhunter': '50 Stunned/Detected',
+        'Ballistic Knife': '50 kills while sliding'
       },
       'Submachine Guns': { default: '75 Stunned/Detected' },
       'Tactical Rifles': { default: '75 Stunned/Detected' }
@@ -99,7 +105,8 @@ export default [
       'Sniper Rifles': { default: '50 One Shot Kills' },
       'Special': { 
         default: '10 3-streaks',
-        'R1 Shadowhunter': '5 One Shot kills in a single game 10 times'
+        'R1 Shadowhunter': '5 One Shot kills in a single game 10 times',
+        'Ballistic Knife': '50 kills against enemies who are disoriented by a smoke grenade, flash or stun grenades'
       },
       'Submachine Guns': { default: '75 Point-Blank' },
       'Tactical Rifles': { default: '50 Anti-Cover' }
@@ -149,7 +156,8 @@ export default [
       'Sniper Rifles': { default: '2500 critical hit kills' },
       'Special': { 
         default: 'Kill 2 or more enemies rapidly 50 times',
-        'R1 Shadowhunter': 'Get 3 or more critical hit kills rapidly 50 times'
+        'R1 Shadowhunter': 'Get 3 or more critical hit kills rapidly 50 times',
+        'Ballistic Knife': '50 kills against enemies who are disoriented by a stun grenade, monkey bomb or decoy'
       },
       'Submachine Guns': { default: '2500 critical hit kills' },
       'Tactical Rifles': { default: '2500 critical hit kills' }
@@ -216,7 +224,10 @@ export default [
       'Pistols': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
       'Shotguns': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
       'Sniper Rifles': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
-      'Special': { default: 'Get 10 kills rapidly 10 times' },
+      'Special': { 
+        default: 'Get 10 kills rapidly 10 times',
+        'R1 Shadowhunter': 'Get 2 kills rapidly 10 times'
+      },
       'Submachine Guns': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
       'Tactical Rifles': { default: 'Get 3 or more critical hit kills rapidly 25 times' }
     }
