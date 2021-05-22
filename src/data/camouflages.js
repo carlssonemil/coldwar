@@ -167,14 +167,14 @@ export default [
     name: 'Brushstroke',
     requirements: {
       'Assault Rifles': { default: '2500 kills while the weapon is pack-a-punched' },
-      'Launchers': { default: 'Kill 5 or more enemies with a single rocket' },
+      'Launchers': { default: 'Kill 5 or more enemies with a single shot 50 times' },
       'Light Machine Guns': { default: '2500 kills while the weapon is pack-a-punched' },
       'Melee': { default: '750 kills while the weapon is pack-a-punched' },
       'Pistols': { default: '2500 kills while the weapon is pack-a-punched' },
       'Shotguns': { default: '2500 kills while the weapon is pack-a-punched' },
       'Sniper Rifles': { default: '2500 kills while the weapon is pack-a-punched' },
       'Special': { 
-        default: 'Kill 5 or more enemies with a single rocket',
+        default: 'Kill 5 or more enemies with a single shot 50 times',
         'R1 Shadowhunter': 'Kill 3 or more enemies with a single shot 50 times',
         'Ballistic Knife': 'Kills while the weapon is pack-a-punched'
       },
