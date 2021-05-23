@@ -2,7 +2,7 @@
   <div>
     <transition-group name="fade" tag="div" class="container">
       <div class="category" v-for="(category, title, index) in weapons" :key="title" :data-index="index">
-        <h2>{{ title }}</h2>
+        <h2>{{ title }}<span class="category-progress">{{ categoryProgress(title) }}</span></h2>
         <transition-group name="fade" tag="div" class="weapons">
           <div class="weapon" v-for="weapon in category" :key="weapon.name">
             <div :class="['name', mode, { completed: completed(weapon, mode) }, { required: weapon.required }]"
@@ -60,6 +60,14 @@
         return `${ camo } - ${ requirement[weapon.name] ? requirement[weapon.name] : requirement.default }`;
       },
 
+      categoryProgress(category) {
+        const categoryWeapons = this.weapons[category];
+        const required = categoryWeapons.filter(weapon => !weapon.dlc).length;
+        const completed = categoryWeapons.reduce((a, weapon) => a + Object.values(weapon.progress[this.mode]).reduce((b, progress) => b + progress, 0), 0) / 7;
+
+        return completed > required ? `${required} / ${required}` : `${completed} / ${required}`;
+      },
+
       convertToKebabCase
     }
   }
@@ -81,9 +89,19 @@
     }
 
     h2 {
+      align-items: center;
+      display: inline-flex;
+      justify-content: space-between;
       font-size: 24px;
       font-weight: 600;
       margin-bottom: 25px;
+      width: 100%;
+
+      .category-progress {
+        color: $elevation-9-color;
+        font-size: 18px;
+        margin-left: 10px;
+      }
 
       @media (max-width: $tablet) {
         font-size: 32px;
