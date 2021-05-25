@@ -56,7 +56,7 @@
 
         categories.forEach(category => {
           const categoryWeapons = weapons.filter(weapon => weapon.category === category);
-          const required = categoryWeapons.filter(weapon => !weapon.dlc).length * 7; // 7 for the number of camouflages
+          const required = categoryWeapons.filter(weapon => !weapon.dlc).length;
           const completed = categoryWeapons.reduce((a, weapon) => a + Object.values(weapon.progress[this.type]).every(Boolean), 0);
           
           progress[category] = completed / required > 1 ? 1 : completed / required;
