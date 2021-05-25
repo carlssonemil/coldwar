@@ -63,7 +63,7 @@
       categoryProgress(category) {
         const categoryWeapons = this.weapons[category];
         const required = categoryWeapons.filter(weapon => !weapon.dlc).length;
-        const completed = categoryWeapons.reduce((a, weapon) => a + Object.values(weapon.progress[this.mode]).reduce((b, progress) => b + progress, 0), 0) / 7;
+        const completed = categoryWeapons.reduce((a, weapon) => a + Object.values(weapon.progress[this.mode]).every(Boolean), 0);
 
         return completed > required ? `${required} / ${required}` : `${Math.floor(completed)} / ${required}`;
       },
