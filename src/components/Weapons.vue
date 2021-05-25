@@ -65,7 +65,7 @@
         const required = categoryWeapons.filter(weapon => !weapon.dlc).length;
         const completed = categoryWeapons.reduce((a, weapon) => a + Object.values(weapon.progress[this.mode]).reduce((b, progress) => b + progress, 0), 0) / 7;
 
-        return completed > required ? `${required} / ${required}` : `${completed} / ${required}`;
+        return completed > required ? `${required} / ${required}` : `${Math.floor(completed)} / ${required}`;
       },
 
       convertToKebabCase
