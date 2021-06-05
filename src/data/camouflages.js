@@ -176,7 +176,7 @@ export default [
       'Special': { 
         default: 'Kill 5 or more enemies with a single rocket',
         'R1 Shadowhunter': 'Kill 3 or more enemies with a single shot 50 times',
-        'Ballistic Knife': 'Kills while the weapon is pack-a-punched'
+        'Ballistic Knife': 'Get 1500 kills while the weapon is pack-a-punched'
       },
       'Submachine Guns': { default: '2500 kills while the weapon is pack-a-punched' },
       'Tactical Rifles': { default: '2500 kills while the weapon is pack-a-punched' }
@@ -195,7 +195,7 @@ export default [
       'Special': { 
         default: '2500 kills while the weapon is pack-a-punched',
         'R1 Shadowhunter': '1500 kills while the weapon is pack-a-punched',
-        'Ballistic Knife': 'Get kills with the Ballistic Knife against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies'
+        'Ballistic Knife': 'Get 15 kills with the Ballistic Knife against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies'
       },
       'Submachine Guns': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
       'Tactical Rifles': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' }
@@ -228,7 +228,7 @@ export default [
       'Sniper Rifles': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
       'Special': { 
         default: 'Get 10 kills rapidly 10 times',
-        'R1 Shadowhunter': 'Get 2 kills rapidly 10 times'
+        'Ballistic Knife': 'Get 2 or more kills rapidly 10 times'
       },
       'Submachine Guns': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
       'Tactical Rifles': { default: 'Get 3 or more critical hit kills rapidly 25 times' }
