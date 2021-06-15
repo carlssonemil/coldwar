@@ -41,10 +41,10 @@
         </div>
         <div class="footer">
           <router-link to="/settings">Settings</router-link>
-          <router-link to="/about">About</router-link>
+          <!--<router-link to="/about">About</router-link>-->
           <a href="https://github.com/carlssonemil/coldwar">GitHub</a>
 
-          <a href="https://www.buymeacoffee.com/emilcarlsson" class="button">Support me by buying me a beer 🍺</a>
+          <a href="https://www.buymeacoffee.com/emilcarlsson" class="button">Support the creator by buying him a beer 🍺</a>
         </div>
       </nav>
     </transition>
