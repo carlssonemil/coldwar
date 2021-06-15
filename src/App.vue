@@ -2,7 +2,7 @@
   <div id="app" :style="{ overflowY: mobileNav ? 'hidden' : null }">
     <transition name="slidedown">
       <div class="notice" v-if="showNotice">
-        <p>If you like this site, show your appreciation by <a href="https://www.buymeacoffee.com/emilcarlsson">buying me a beer</a> 🍺</p>
+        <p>If you like this tracker, show your appreciation by <a href="https://www.buymeacoffee.com/emilcarlsson">buying the creator a beer</a> 🍺</p>
         <eva-icon name="close" fill="white" width="16" height="16" @click="showNotice = false"></eva-icon>
       </div>
     </transition>
@@ -57,7 +57,7 @@
       <div>Made by <a href="https://emilcarlsson.se/">Emil Carlsson</a></div>
       
       <div>
-        <router-link to="/about">About</router-link>
+        <!--<router-link to="/about">About</router-link>-->
         <a href="https://github.com/carlssonemil/coldwar">GitHub</a>
       </div>
     </footer>
