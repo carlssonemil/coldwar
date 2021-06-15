@@ -44,6 +44,10 @@
           <router-link to="/about">About</router-link>
           <a href="https://github.com/carlssonemil/coldwar">GitHub</a>
 
+          <div class="info">
+            <p>Looking for a camouflage tracker for <em>Modern Warfare (2019)</em>? <a href="https://damascus.vercel.app/">Check it out here!</a> 😎</p>
+          </div>
+
           <a href="https://www.buymeacoffee.com/emilcarlsson" class="button">Support me by buying me a beer 🍺</a>
         </div>
       </nav>
