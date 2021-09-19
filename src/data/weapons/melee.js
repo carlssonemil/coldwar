@@ -1,6 +1,6 @@
 import { ultraProgress, aetherProgress } from '../defaults'
 
-const weapons = ['Knife', 'Sledgehammer', 'Wakizashi', 'E-Tool', 'Machete', 'Baseball Bat', 'Mace', 'Cane']
+const weapons = ['Knife', 'Sledgehammer', 'Wakizashi', 'E-Tool', 'Machete', 'Baseball Bat', 'Mace', 'Cane', 'Sai']
 const original = ['Knife']
 
 export default weapons.map(weapon => ({
