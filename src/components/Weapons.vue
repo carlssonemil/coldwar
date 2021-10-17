@@ -56,8 +56,13 @@
       },
 
       camoTooltip(category, camo, weapon) {
-        let requirement = this.$store.state.camouflages.find(c => c.name === camo).requirements[category];
-        return `${ camo } - ${ requirement[weapon.name] ? requirement[weapon.name] : requirement.default }`;
+        console.log("CAMO: ", camo);
+        console.log("camoObj: ", this.$store.state.camouflages.find(c => c.id === camo));
+        let camoObj = this.$store.state.camouflages.find(c => c.id === camo);
+        if (camoObj) {
+          let requirement = camoObj.requirements[category];
+          return `${ camo } - ${ requirement[weapon.name] ? requirement[weapon.name] : requirement.default }`;
+        }
       },
 
       categoryProgress(category) {

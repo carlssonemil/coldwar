@@ -1,7 +1,10 @@
+import { ultraStrings, aetherStrings } from '../data/defaults'
+
 export default [
   // DM Ultra
   {
-    name: 'Spray - Prosper',
+    id: ultraStrings.spray.id,
+    name: ultraStrings.spray.name,
     requirements: {
       'Assault Rifles': { default: '300 Kills' },
       'Launchers': { default: '50 Kills' },
@@ -21,7 +24,8 @@ export default [
     }
   },
   {
-    name: 'Stripes - Bengal',
+    id: ultraStrings.stripes.id,
+    name: ultraStrings.stripes.name,
     requirements: {
       'Assault Rifles': { default: '100 Headshots' },
       'Launchers': { default: '50 Streaks/Equipment' },
@@ -41,7 +45,8 @@ export default [
     }
   },
   {
-    name: 'Classic - Ransom',
+    id: ultraStrings.classic.id,
+    name: ultraStrings.classic.name,
     requirements: {
       'Assault Rifles': { default: '5 kills without dying 20 times' },
       'Launchers': { default: '2 kills without dying 20 times' },
@@ -60,7 +65,8 @@ export default [
     }
   },
   {
-    name: 'Geometric - Bloodline',
+    id: ultraStrings.geometric.id,
+    name: ultraStrings.geometric.name,
     requirements: {
       'Assault Rifles': { default: '50 Longshots' },
       'Launchers': { default: 'Destroy 50 ground-based killstreaks' },
@@ -79,7 +85,8 @@ export default [
     }
   },
   {
-    name: 'Flora - Cherry Blossom',
+    id: ultraStrings.flora.id,
+    name: ultraStrings.flora.name,
     requirements: {
       'Assault Rifles': { default: '75 Stunned/Detected' },
       'Launchers': { default: 'Destroy 50 air-based killstreaks' },
@@ -99,7 +106,8 @@ export default [
     }
   },
   {
-    name: 'Science - Policia',
+    id: ultraStrings.science.id,
+    name: ultraStrings.science.name,
     requirements: {
       'Assault Rifles': { default: '50 Anti-Cover' },
       'Launchers': { default: '10 3-streaks' },
@@ -119,7 +127,8 @@ export default [
     }
   },
   {
-    name: 'Psychadelic - Bliss',
+    id: ultraStrings.psychadelic.id,
+    name: ultraStrings.psychadelic.name,
     requirements: {
       'Assault Rifles': { default: '25 Double Kills' },
       'Launchers': { default: '25 Double Kills' },
@@ -136,7 +145,8 @@ export default [
 
   // Dark Aether
   {
-    name: 'Grunge - Rotten',
+    id: aetherStrings.grunge.id,
+    name: aetherStrings.grunge.name,
     requirements: {
       'Assault Rifles': { default: '2500 Kills' },
       'Launchers': { default: '1500 Kills' },
@@ -154,7 +164,8 @@ export default [
     }
   },
   {
-    name: 'Liquid - Banished',
+    id: aetherStrings.liquid.id,
+    name: aetherStrings.liquid.name,
     requirements: {
       'Assault Rifles': { default: '2500 critical hit kills' },
       'Launchers': { default: 'Kill 2 or more enemies rapidly 50 times' },
@@ -174,7 +185,8 @@ export default [
     }
   },
   {
-    name: 'Brushstroke - Chemical',
+    id: aetherStrings.brushstroke.id,
+    name: aetherStrings.brushstroke.name,
     requirements: {
       'Assault Rifles': { default: '2500 kills while the weapon is pack-a-punched' },
       'Launchers': { default: 'Kill 5 or more enemies with a single shot 50 times' },
@@ -194,7 +206,8 @@ export default [
     }
   },
   {
-    name: 'Vintage - Maniac',
+    id: aetherStrings.vintage.id,
+    name: aetherStrings.vintage.name,
     requirements: {
       'Assault Rifles': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
       'Launchers': { default: '2500 kills while the weapon is pack-a-punched' },
@@ -214,7 +227,8 @@ export default [
     }
   },
   {
-    name: 'Fauna - Rising Tiger',
+    id: aetherStrings.fauna.id,
+    name: aetherStrings.fauna.name,
     requirements: {
       'Assault Rifles': { default: 'Get 10 kills rapidly 10 times' },
       'Launchers': { default: 'Get 10 Special or Elite eliminations (Bosses count as 3 eliminations)' },
@@ -232,7 +246,8 @@ export default [
     }
   },
   {
-    name: 'Topography - Sunder',
+    id: aetherStrings.topography.id,
+    name: aetherStrings.topography.name,
     requirements: {
       'Assault Rifles': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
       'Launchers': { default: 'Get 10 kills rapidly 10 times' },
@@ -251,7 +266,8 @@ export default [
     }
   },
   {
-    name: 'Infection - Conviction',
+    id: aetherStrings.infection.id,
+    name: aetherStrings.infection.name,
     requirements: {
       'Assault Rifles': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
       'Launchers': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
