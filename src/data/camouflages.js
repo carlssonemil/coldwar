@@ -1,7 +1,7 @@
 export default [
   // DM Ultra
   {
-    name: 'Spray',
+    name: 'Spray - Prosper',
     requirements: {
       'Assault Rifles': { default: '300 Kills' },
       'Launchers': { default: '50 Kills' },
@@ -21,7 +21,7 @@ export default [
     }
   },
   {
-    name: 'Stripes',
+    name: 'Stripes - Bengal',
     requirements: {
       'Assault Rifles': { default: '100 Headshots' },
       'Launchers': { default: '50 Streaks/Equipment' },
@@ -41,7 +41,7 @@ export default [
     }
   },
   {
-    name: 'Classic',
+    name: 'Classic - Ransom',
     requirements: {
       'Assault Rifles': { default: '5 kills without dying 20 times' },
       'Launchers': { default: '2 kills without dying 20 times' },
@@ -60,7 +60,7 @@ export default [
     }
   },
   {
-    name: 'Geometric',
+    name: 'Geometric - Bloodline',
     requirements: {
       'Assault Rifles': { default: '50 Longshots' },
       'Launchers': { default: 'Destroy 50 ground-based killstreaks' },
@@ -79,7 +79,7 @@ export default [
     }
   },
   {
-    name: 'Flora',
+    name: 'Flora - Cherry Blossom',
     requirements: {
       'Assault Rifles': { default: '75 Stunned/Detected' },
       'Launchers': { default: 'Destroy 50 air-based killstreaks' },
@@ -99,7 +99,7 @@ export default [
     }
   },
   {
-    name: 'Science',
+    name: 'Science - Policia',
     requirements: {
       'Assault Rifles': { default: '50 Anti-Cover' },
       'Launchers': { default: '10 3-streaks' },
@@ -119,7 +119,7 @@ export default [
     }
   },
   {
-    name: 'Psychadelic',
+    name: 'Psychadelic - Bliss',
     requirements: {
       'Assault Rifles': { default: '25 Double Kills' },
       'Launchers': { default: '25 Double Kills' },
@@ -136,7 +136,7 @@ export default [
 
   // Dark Aether
   {
-    name: 'Grunge',
+    name: 'Grunge - Rotten',
     requirements: {
       'Assault Rifles': { default: '2500 Kills' },
       'Launchers': { default: '1500 Kills' },
@@ -154,7 +154,7 @@ export default [
     }
   },
   {
-    name: 'Liquid',
+    name: 'Liquid - Banished',
     requirements: {
       'Assault Rifles': { default: '2500 critical hit kills' },
       'Launchers': { default: 'Kill 2 or more enemies rapidly 50 times' },
@@ -174,7 +174,7 @@ export default [
     }
   },
   {
-    name: 'Brushstroke',
+    name: 'Brushstroke - Chemical',
     requirements: {
       'Assault Rifles': { default: '2500 kills while the weapon is pack-a-punched' },
       'Launchers': { default: 'Kill 5 or more enemies with a single shot 50 times' },
@@ -194,7 +194,7 @@ export default [
     }
   },
   {
-    name: 'Vintage',
+    name: 'Vintage - Maniac',
     requirements: {
       'Assault Rifles': { default: 'Get 15 Special or Elite eliminations (Bosses count as 3 eliminations)' },
       'Launchers': { default: '2500 kills while the weapon is pack-a-punched' },
@@ -214,7 +214,7 @@ export default [
     }
   },
   {
-    name: 'Fauna',
+    name: 'Fauna - Rising Tiger',
     requirements: {
       'Assault Rifles': { default: 'Get 10 kills rapidly 10 times' },
       'Launchers': { default: 'Get 10 Special or Elite eliminations (Bosses count as 3 eliminations)' },
@@ -232,7 +232,7 @@ export default [
     }
   },
   {
-    name: 'Topography',
+    name: 'Topography - Sunder',
     requirements: {
       'Assault Rifles': { default: 'Get 3 or more critical hit kills rapidly 25 times' },
       'Launchers': { default: 'Get 10 kills rapidly 10 times' },
@@ -251,7 +251,7 @@ export default [
     }
   },
   {
-    name: 'Infection',
+    name: 'Infection - Conviction',
     requirements: {
       'Assault Rifles': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
       'Launchers': { default: 'Get 20 or more consecutive kills without getting hit 10 times' },
