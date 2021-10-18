@@ -1,5 +1,3 @@
-import { ultraStrings, aetherStrings } from '../data/defaults'
-
 export default [
   // DM Ultra
   {
