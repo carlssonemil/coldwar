@@ -17,6 +17,9 @@
     
       <h4>Damascus</h4>
       <p>Looking for a completionist tracker for <i>Call of Duty: Modern Warfare (2019)</i>? I made one conveniently named <a href="https://damascus.vercel.app">Damascus</a>.</p>
+      
+      <h4>Atomic & Dark Aether</h4>
+      <p>Looking for a camouflage tracker for <i>Call of Duty: Vanguard (2021)</i>? I made one conveniently named <a href="https://vanguard.emca.app">Vanguard</a>.</p>
 
       <h4>Support me</h4>
       <p>You can support me by <a href="https://www.buymeacoffee.com/emilcarlsson">buying me a beer</a> 🍺, it'd be greatly appreciated!</p>
