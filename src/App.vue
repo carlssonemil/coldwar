@@ -45,7 +45,20 @@
           <a href="https://github.com/carlssonemil/coldwar">GitHub</a>
 
           <div class="info">
-            <p>Looking for a camouflage tracker for <em>Modern Warfare (2019)</em>? <a href="https://damascus.vercel.app/">Check it out here!</a> 😎</p>
+            <div>
+              <p>Looking for other camouflage trackers? 😎</p>
+
+              <div class="buttons">
+                <a href="https://coldwar.vercel.app/">
+                  <img :src="require(`./assets/coldwar.png`)">
+                  <span>Cold War</span>
+                </a>
+                <a href="https://vanguard.emca.app/">
+                  <img :src="require(`./assets/vanguard.png`)">
+                  <span>Vanguard</span>
+                </a>
+              </div>
+            </div>
           </div>
 
           <a href="https://www.buymeacoffee.com/emilcarlsson" class="button">Support me by buying me a beer 🍺</a>
