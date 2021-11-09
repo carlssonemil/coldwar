@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
     <div class="container" v-if="show">
-      <h1>ColdWar<span>.vercel.app</span></h1>
+      <h1>Cold War</h1>
       <h2>Simple, lightweight & intuitive camouflage tracker for Call of Duty: Black Ops Cold War</h2>
 
       <div class="buttons">
@@ -35,10 +35,6 @@ h1 {
   font-size: 28px;
   font-weight: 600;
   margin-top: 75px;
-
-  span {
-    color: rgba($text-color, .5);
-  }
 }
 
 h2 {
