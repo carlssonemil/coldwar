@@ -38,6 +38,7 @@
 
 <script>
   import { convertToKebabCase } from '@/utils/utils'
+  import { camoStrings } from '@/data/defaults'
 
   export default {
     props: ['weapons', 'mode'],
@@ -57,7 +58,7 @@
 
       camoTooltip(category, camo, weapon) {
         let requirement = this.$store.state.camouflages.find(c => c.name === camo).requirements[category];
-        return `${ camo } - ${ requirement[weapon.name] ? requirement[weapon.name] : requirement.default }`;
+        return `${ camoStrings[camo] } - ${ requirement[weapon.name] ? requirement[weapon.name] : requirement.default }`;
       },
 
       categoryProgress(category) {
