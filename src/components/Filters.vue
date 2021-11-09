@@ -30,7 +30,11 @@
                 name="question-mark-circle" 
                 fill="white" 
                 v-tippy="{ placement: 'bottom' }" 
-                :content="'You only need to completed the number of base guns there are for each category to earn the Diamond camouflage. For example, the Assault Rifles requires 5 Gold camouflages to reward the Diamond camouflage.'"></eva-icon>
+                :content="'You only need to complete the number of base guns there are for each category to earn the Diamond camouflage. For example, the Assault Rifles requires 5 Gold camouflages to reward the Diamond camouflage.'"></eva-icon>
+      <div class="info mobile">
+        <eva-icon name="question-mark-circle" fill="white"></eva-icon>
+        <p>You only need to complete the number of base guns there are for each category to earn the Diamond camouflage. For example, the Assault Rifles requires 5 Gold camouflages to reward the Diamond camouflage.</p>
+      </div>
     </div>
   </div>
 </template>
@@ -88,6 +92,8 @@ export default {
     flex: 1 1 auto;
   }
 
+  
+
   .symbols {
     cursor: default;
 
@@ -102,6 +108,50 @@ export default {
 
       &:hover {
         opacity: .75;
+      }
+
+      &.mobile {
+        align-items: center;
+        background: darken($elevation-9-color, 10%);
+        border-radius: $border-radius;
+        cursor: default;
+        display: none;
+        margin-top: 15px;
+        padding: 25px;
+        position: relative;
+
+        i {
+          align-items: center;
+          background: $background-color;
+          border-radius: 100%;
+          display: flex;
+          height: 28px;
+          justify-content: center;
+          left: 0;
+          position: absolute;
+          top: 0;
+          transform: scale(150%) translate(-25%, -25%);
+          width: 28px;
+
+          ::v-deep svg {
+            position: relative;
+            top: -1px;
+          }
+        }
+
+        &:hover {
+          opacity: .5;
+        }
+      }
+
+      @media (max-width: $tablet) {
+        &:not(.mobile) {
+          display: none;
+        }
+
+        &.mobile {
+          display: flex;
+        }
       }
     }
   }
