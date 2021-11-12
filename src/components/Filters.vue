@@ -127,10 +127,10 @@ export default {
           display: flex;
           height: 28px;
           justify-content: center;
-          left: 0;
+          left: -10px;
           position: absolute;
-          top: 0;
-          transform: scale(150%) translate(-25%, -25%);
+          top: -10px;
+          transform: scale(1.5);
           width: 28px;
 
           ::v-deep svg {
