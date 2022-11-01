@@ -8,12 +8,22 @@
         <button @click="$router.push('/ultra')" class="ultra"><span>Track DM Ultra</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
         <button @click="$router.push('/aether')" class="aether"><span>Track Dark Aether</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
       </div>
+
+      <Alert style="margin: 50px auto 0; max-width: 550px;">
+        Looking for the latest Modern Warfare 2 camouflage tracker? <a href="https://orion.emca.app">You can find it here</a>. ✌
+      </Alert>
     </div>
   </transition>
 </template>
 
 <script>
+import Alert from '@/components/Alert.vue'
+
 export default {
+  components: {
+    Alert
+  },
+
   data() {
     return {
       show: false
